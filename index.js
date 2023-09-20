@@ -14,7 +14,7 @@ const recentSongs = [];
 
 async function setupPuppeteer() {
   const puppeteerOptions = {
-    executablePath: 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', // Specify the path to Chromium or Chrome executable
+    
     headless: true, // Set to true for running in headless mode
     args: ['--no-sandbox', '--disable-setuid-sandbox'],
   };
